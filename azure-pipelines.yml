@@ -7,8 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
-
+  vmImage: DESKTOP-NOS0MPS
 variables:
   GOBIN:  '$(GOPATH)/bin' # Go binaries path
   GOROOT: '/usr/local/go1.11' # Go installation path
